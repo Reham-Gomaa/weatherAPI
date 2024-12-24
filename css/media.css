@@ -1,0 +1,39 @@
+@media all and (width < 576px){
+    main{
+        height: 150vh;
+    }
+    .searchInput button{
+        right: 11%;
+    }
+    .afterdays{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer p{
+        font-size: 10px;
+    }
+ 
+}
+@media all and (576px <= width < 768px){
+    main{
+        height: 155vh;
+    }
+    .searchInput button{
+        right: 14%;
+    }
+    .afterdays{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media all and (768px <= width < 992px){
+  
+}
+@media all and (992px <= width < 1200px){
+  
+}
+@media all and (1200px <= width < 1400px){
+  
+}

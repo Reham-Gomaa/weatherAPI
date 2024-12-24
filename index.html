@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" href="images/logo@2x.png" type="image/x-icon">
+    <title>Weather</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+        <div class="container px-5 py-4">
+            <a href="index.html" class="logo d-flex justify-content-center align-items-center text-decoration-none text-white">
+                <img class="" src="images/logo@2x.png" alt="cloud-icon">
+                <div class="logo-text pt-3 ps-3">
+                    <h1 class="m-1">Weather</h1>
+                    <p>tagline goes here</p>
+                </div>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item px-1">
+                    <button id="active" type="button" class="btn rounded-pill">
+                        <a class="nav-link active p-0" aria-current="page" href="#">Home</a>
+                    </button>
+                </li>
+                <li class="nav-item px-1">
+                    <button type="button" class="btn rounded-pill">
+                        <a class="nav-link p-0" href="#">News</a>
+                    </button>
+                </li>
+                <li class="nav-item px-1">
+                    <button type="button" class="btn rounded-pill">
+                        <a class="nav-link p-0" href="#">Live Cameras</a>
+                    </button>
+                </li>
+                <li class="nav-item px-1">
+                    <button type="button" class="btn rounded-pill">
+                        <a class="nav-link p-0" href="#">Photos</a>
+                    </button>
+                </li>
+                <li class="nav-item px-1">
+                    <button type="button" class="btn rounded-pill">
+                        <a class="nav-link p-0" href="#">Contact</a>
+                    </button>
+                </li>
+                
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="p-md-5">
+        <div class="container pt-5 p-md-5">
+            <div class="searchInput position-relative pb-md-5 pt-md-2">
+                <input class="w-50 mx-auto form-control rounded rounded-pill bg-dark border-0  text-white" type="text" placeholder="Find your location ..." aria-label="default input example">
+                <button id="searchBtn"  class="position-absolute rounded rounded-circle bg-dark">
+                    <i class="fa-solid fa-magnifying-glass"></i>                
+                </button>
+            </div>
+            
+            <div class="afterdays container pt-5 pt-md-5 d-md-flex align-items-md-stretch justify-content-md-center">
+                <div class="toDay col card mb-md-3 border-0 rounded-start" >
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class=" position-relative mb-3">
+                        <input class="form-control form-control-lg rounded rounded-pill bg-dark border-0  text-white" type="text" placeholder="Enter your email to subscribe ..." aria-label="default input example">
+                        <button id="subscribeBtn" class="position-absolute text-white rounded rounded-pill">Subscribe</button>
+                    </div>
+                    <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                </div>
+                <div class="col-md-5">
+                    <div class="footerIcons d-flex align-items-center justify-content-center">
+                        <div class="footerIcon bg-dark me-3">
+                            <i class="fa-brands fa-facebook-f fa-lg"></i>
+                        </div>
+                        <div class="footerIcon bg-dark me-3">
+                            <i class="fa-brands fa-twitter fa-lg"></i>                        
+                        </div>
+                        <div class="footerIcon bg-dark me-3">
+                            <i class="fa-brands fa-google-plus-g fa-lg"></i>                        
+                        </div>
+                        <div class="footerIcon bg-dark me-3">
+                            <i class="fa-brands fa-pinterest fa-lg"></i>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
